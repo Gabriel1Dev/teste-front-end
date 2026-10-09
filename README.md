@@ -1,8 +1,8 @@
-# 🛍️ Teste Front-End Júnior — Econverse
+# Teste Front-End Júnior — Econverse
 
 Projeto desenvolvido como parte do processo seletivo para a vaga de **Desenvolvedor Front-End Júnior da Econverse**.
 
-## 🚀 Tecnologias utilizadas
+## Tecnologias utilizadas
 
 - **React** — construção da interface por componentes.
 - **TypeScript** — tipagem estática e maior segurança no desenvolvimento.
