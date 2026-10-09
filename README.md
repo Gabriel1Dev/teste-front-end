@@ -1,86 +1,109 @@
-Tecnologias utilizadas
+# 🛍️ Teste Front-End Júnior — Econverse
 
-React — construção da interface por componentes.
+Projeto desenvolvido como parte do processo seletivo para a vaga de **Desenvolvedor Front-End Júnior da Econverse**.
 
-TypeScript — tipagem estática e maior segurança no desenvolvimento.
+## 🚀 Tecnologias utilizadas
 
-Vite — ambiente de desenvolvimento e ferramenta de build.
+- **React** — construção da interface por componentes.
+- **TypeScript** — tipagem estática e maior segurança no desenvolvimento.
+- **Vite** — ambiente de desenvolvimento e ferramenta de build.
+- **Sass/SCSS** — estilização da interface.
+- **ESLint** — análise estática e padronização do código.
 
-Sass/SCSS — estilização da interface.
+## Funcionalidades
 
-ESLint — análise estática e padronização do código.
+- Exibição de produtos em uma vitrine.
+- Consumo de dados de produtos em formato JSON.
+- Visualização dos detalhes de um produto por meio de um modal.
+- Interface baseada no layout de referência do Figma.
+- Organização da aplicação em componentes reutilizáveis.
 
-Funcionalidades propostas
+## Como executar o projeto
 
-Exibição de produtos em uma vitrine.
+### Pré-requisitos
 
-Consumo de dados de produtos em formato JSON.
+- [Node.js](https://nodejs.org/) instalado.
+- npm, incluído na instalação do Node.js.
 
-Visualização dos detalhes de um produto por meio de um modal.
+### Instalação
 
-Interface baseada no layout de referência do Figma.
+**1. Clone o repositório:**
 
-Organização da aplicação em componentes reutilizáveis.
-
-Como executar o projeto
-
-Pré-requisitos
-
-Node.js instalado.
-
-npm instalado.
-
-Instalação
-
-Clone o repositório:
-
+```bash
 git clone URL_DO_SEU_REPOSITORIO
+```
 
-Acesse a pasta do projeto:
+**2. Acesse a pasta do projeto:**
 
+```bash
 cd NOME_DA_PASTA
+```
 
-Instale as dependências:
+**3. Instale as dependências:**
 
+```bash
 npm install
+```
 
-Inicie o servidor de desenvolvimento:
+**4. Inicie o servidor de desenvolvimento:**
 
+```bash
 npm run dev
+```
 
-Acesse no navegador o endereço exibido pelo terminal, normalmente http://localhost:5173.
+**5. Acesse a aplicação:**
 
-Verificação do código
+Abra no navegador o endereço exibido no terminal, normalmente:
 
-Para executar o ESLint:
+`http://localhost:5173`
 
+## Verificação do código
+
+**Executar o ESLint:**
+
+```bash
 npm run lint
+```
 
-Para gerar a versão de produção:
+**Gerar a versão de produção:**
 
+```bash
 npm run build
+```
 
-Para visualizar localmente a versão gerada:
+**Visualizar a versão de produção localmente:**
 
+```bash
 npm run preview
+```
 
-Estrutura do projeto
+## Estrutura do projeto
 
+```text
 ├── public/
 ├── src/
-│ ├── assets/
-│ ├── components/
-│ ├── style/
-│ ├── App.tsx
-│ └── main.tsx
+│   ├── assets/
+│   ├── components/
+│   ├── style/
+│   ├── App.tsx
+│   └── main.tsx
 ├── index.html
 ├── package.json
 └── README.md
+```
 
-A estrutura acima é ilustrativa e deve ser ajustada para corresponder às pastas e aos arquivos reais do projeto.
+> A estrutura apresentada é ilustrativa. Ajuste-a para corresponder aos arquivos e diretórios reais do projeto.
 
-Objetivo do desafio
+## Objetivo do desafio
 
-Demonstrar conhecimentos em desenvolvimento Front-End, incluindo componentização, tipagem com TypeScript, consumo de dados, estilização com pré-processador CSS e organização do código.
+Demonstrar conhecimentos em desenvolvimento Front-End, incluindo:
 
-Desenvolvido como parte do processo seletivo para Desenvolvedor Front-End Júnior — Econverse.
+- Componentização e reutilização de código.
+- Tipagem estática com TypeScript.
+- Consumo e manipulação de dados em JSON.
+- Estilização com pré-processador CSS.
+- Organização e boas práticas de desenvolvimento.
+
+---
+
+Desenvolvido como parte do processo seletivo para **Desenvolvedor Front-End Júnior — Econverse**.
