@@ -1,75 +1,86 @@
-# React + TypeScript + Vite
+Tecnologias utilizadas
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+React — construção da interface por componentes.
 
-Currently, two official plugins are available:
+TypeScript — tipagem estática e maior segurança no desenvolvimento.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Vite — ambiente de desenvolvimento e ferramenta de build.
 
-## React Compiler
+Sass/SCSS — estilização da interface.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+ESLint — análise estática e padronização do código.
 
-## Expanding the ESLint configuration
+Funcionalidades propostas
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Exibição de produtos em uma vitrine.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+Consumo de dados de produtos em formato JSON.
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+Visualização dos detalhes de um produto por meio de um modal.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+Interface baseada no layout de referência do Figma.
 
-```
+Organização da aplicação em componentes reutilizáveis.
 
-You can also install [eslint-plugin-react-x](https://npmx.dev/package/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://npmx.dev/package/eslint-plugin-react-dom) for React-specific lint rules:
+Como executar o projeto
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Pré-requisitos
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+Node.js instalado.
 
-```
+npm instalado.
+
+Instalação
+
+Clone o repositório:
+
+git clone URL_DO_SEU_REPOSITORIO
+
+Acesse a pasta do projeto:
+
+cd NOME_DA_PASTA
+
+Instale as dependências:
+
+npm install
+
+Inicie o servidor de desenvolvimento:
+
+npm run dev
+
+Acesse no navegador o endereço exibido pelo terminal, normalmente http://localhost:5173.
+
+Verificação do código
+
+Para executar o ESLint:
+
+npm run lint
+
+Para gerar a versão de produção:
+
+npm run build
+
+Para visualizar localmente a versão gerada:
+
+npm run preview
+
+Estrutura do projeto
+
+├── public/
+├── src/
+│ ├── assets/
+│ ├── components/
+│ ├── style/
+│ ├── App.tsx
+│ └── main.tsx
+├── index.html
+├── package.json
+└── README.md
+
+A estrutura acima é ilustrativa e deve ser ajustada para corresponder às pastas e aos arquivos reais do projeto.
+
+Objetivo do desafio
+
+Demonstrar conhecimentos em desenvolvimento Front-End, incluindo componentização, tipagem com TypeScript, consumo de dados, estilização com pré-processador CSS e organização do código.
+
+Desenvolvido como parte do processo seletivo para Desenvolvedor Front-End Júnior — Econverse.
