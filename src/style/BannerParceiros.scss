@@ -36,21 +36,6 @@
   position: absolute;
   z-index: -2;
   inset: 0;
-  overflow: hidden;
-  background:
-    linear-gradient(90deg, rgb(0 0 0 / 10%) 0%, rgb(0 0 0 / 30%) 100%),
-    linear-gradient(
-      180deg,
-      transparent 0 9%,
-      rgb(245 179 63 / 50%) 9.5% 10.5%,
-      transparent 11% 34%,
-      rgb(224 160 53 / 55%) 35% 36.5%,
-      transparent 37% 60%,
-      rgb(196 131 41 / 60%) 61% 63%,
-      transparent 64% 83%,
-      rgb(24 18 14 / 95%) 84%
-    ),
-    radial-gradient(ellipse at 75% 45%, #73512b 0, #38291d 42%, #17130f 78%);
 
   img {
     position: absolute;
@@ -132,10 +117,6 @@
 @media (max-width: 560px) {
   .banner-parceiros__list {
     grid-template-columns: 1fr;
-  }
-
-  .banner-parceiros__card {
-    aspect-ratio: 1.8;
   }
 
   .banner-parceiros__content {
