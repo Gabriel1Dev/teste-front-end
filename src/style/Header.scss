@@ -180,10 +180,6 @@
   white-space: nowrap;
 }
 
-.header__categories a[aria-current="page"] {
-  color: var(--header-foreground);
-}
-
 .sr-only {
   position: absolute;
   width: 1px;
