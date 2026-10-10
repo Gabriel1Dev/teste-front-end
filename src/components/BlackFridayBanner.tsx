@@ -1,5 +1,5 @@
-import blackFridayImage from "../assets/blackfriday.png";
-import gradientImage from "../assets/degrade.png";
+import blackFridayImage from "../assets/banners/blackfriday.png";
+import gradientImage from "../assets/banners/degrade.png";
 import "../style/BlackFridayBanner.scss";
 
 function BlackFridayBanner() {

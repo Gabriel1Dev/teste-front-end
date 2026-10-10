@@ -69,6 +69,8 @@ function Products() {
                   {produto.price.toLocaleString("pt-BR", {
                     style: "currency",
                     currency: "BRL",
+                    minimumFractionDigits: 2,
+                    maximumFractionDigits: 2,
                   })}
                 </p>
                 <p className="products__shipping">Frete grátis</p>
