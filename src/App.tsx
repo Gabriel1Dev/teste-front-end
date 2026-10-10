@@ -3,6 +3,7 @@ import BlackFridayBanner from "./components/BlackFridayBanner";
 import Header from "./components/Header";
 import Products from "./components/Products";
 import BannerParceiros from "./components/BannerParceiros";
+import Brands from "./components/Brand";
 function App() {
   return (
     <div className="App">
@@ -11,6 +12,7 @@ function App() {
       <Categorias />
       <Products />
       <BannerParceiros />
+      <Brands />
     </div>
   );
 }
