@@ -1,6 +1,6 @@
-# Teste Front-End Júnior — Econverse
+# Teste Front-End — Econverse
 
-Projeto desenvolvido como parte do processo seletivo para a vaga de **Desenvolvedor Front-End Júnior da Econverse**.
+Projeto desenvolvido como parte do processo seletivo para a vaga de **Desenvolvedor Front-End da Econverse**.
 
 ## Tecnologias utilizadas
 
